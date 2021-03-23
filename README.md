@@ -9,14 +9,14 @@ Install
     application >> libraries >> Native_Session.php
 - In application >> config >> autoload.php, put 'native_session' in libraries array
 
-
+```php
 $autoload['libraries'] = array('database', 'native_session', 'user_agent');
-
+```
 
 - Set the sess_cookie_name and sess_expiration in: application >> config >> config.php
 
 ...
-
+```php 
 $config['sess_cookie_name']		= 'mydomain';
 $config['sess_expiration']		= 86200;
 ```
